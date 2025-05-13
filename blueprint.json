@@ -1,0 +1,23 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": {
+	  "php": "latest",
+	  "wp": "latest"
+	},
+	"siteOptions": {
+	  "blogname": "Sandbox"
+	},
+	"steps": [
+	  {
+		"step": "installTheme",
+		"themeData": {
+		  "resource": "url",
+		  "url": "https://raw.githubusercontent.com/vladmirom/valve-blocks-playground/refs/heads/main/sharing/zips/twentytwentyfive.zip"
+		}
+	  }
+	],
+	"features": {
+	  "networking": true
+	},
+	"login": true
+  }
